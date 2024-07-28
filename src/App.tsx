@@ -10,7 +10,7 @@ import { Dashboard } from './Dashboard';
 export const App = () => (
   <Admin dataProvider={dataProvider} dashboard={Dashboard}>
 
-   <Resource name="posts" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon} />
+   <Resource name="patrimoine" list={PostList} edit={PostEdit} create={PostCreate} icon={PostIcon} />
     <Resource name="users" list={UserList} show={ShowGuesser} icon={UserIcon}  />
   </Admin>
 );
